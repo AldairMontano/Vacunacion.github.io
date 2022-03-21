@@ -1,0 +1,118 @@
+.contenedor {
+  width: 100%;
+  height: 1000px;
+  display: flex;
+  flex-wrap: wrap;
+  /*position: relative;*/
+}
+
+.articulo {
+  width: 50%;
+  padding-top: 250px;
+  padding-left: 100px;
+  padding-right: 100px;
+}
+
+.articulo h1 {
+  font-weight: 900;
+  font-size: 45px;
+  color: rgb(31, 62, 114);
+}
+
+.articulo p {
+  padding-top: 30px;
+  color: rgb(109, 123, 147);
+  width: 75%;
+  font-size: 17px;
+  text-align: justify;
+  font-weight: 500;
+}
+
+.articulo ul li {
+  list-style: none;
+  color: rgb(31, 62, 114);
+  font-size: 15px;
+  font-weight: 500;
+  display: inline-flex;
+  padding-top: 30px;
+  padding-right: 30px;
+}
+
+.articulo h2 {
+  padding-top: 240px;
+  color: rgb(31, 62, 114);
+  font-weight: 500;
+  font-size: 18px;
+}
+
+.articulo1 {
+  display: flex;
+  width: 50%;
+  background: linear-gradient(
+    270deg,
+    rgba(42, 112, 221, 1) 0%,
+    rgba(14, 146, 229, 1) 50%
+  );
+  padding-left: 100px;
+}
+
+.articulo1 img {
+  height: 760px;
+  width: 570px;
+  align-self: flex-end;
+}
+
+.form {
+  margin-left: 100px;
+  margin-bottom: 30px;
+  width: 60%;
+  position: absolute;
+  align-self: flex-end;
+  z-index: 100;
+  height: 125px;
+  background-color: rgba(255, 255, 255, 0.9);
+  border-radius: 10px;
+  box-shadow: 0px 15px 25px rgba(223, 234, 249, 0.5);
+}
+
+.formulario {
+  margin-left: 50px;
+  margin-top: 35px;
+  display: flex;
+  justify-content: space-between;
+  font-size: 18px;
+  font-weight: 500;
+  color: rgb(109, 123, 147);
+}
+
+.formulario input {
+  padding-left: 20px;
+  border: none;
+}
+
+.formulario select {
+  padding-left: 20px;
+  border: none;
+}
+
+.enviar {
+  align-self: center;
+  margin-right: 50px;
+}
+
+.enviar input {
+  padding: 10px 25px;
+  border: none;
+  border-radius: 5px;
+  background: linear-gradient(
+    to left,
+    rgb(42, 74, 200) 0%,
+    rgb(48, 80, 206) 70%
+  );
+  color: #fff;
+  cursor: pointer;
+}
+
+.enviar input:hover {
+  box-shadow: 3px 3px 10px 3px rgba(42, 112, 221, 0.5);
+}

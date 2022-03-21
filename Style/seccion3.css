@@ -1,0 +1,86 @@
+.articulo3 {
+  width: 100%;
+  height: 800px;
+  display: flex;
+  flex-wrap: wrap;
+  padding-top: 100px;
+  margin-bottom: 40px;
+}
+
+.sanitario {
+  width: 50%;
+  height: 500px;
+  background: linear-gradient(
+    90deg,
+    rgba(42, 112, 221, 1) 0%,
+    rgba(14, 146, 229, 1) 50%
+  );
+  align-self: flex-end;
+  display: flex;
+}
+
+.sanitario img {
+  padding-left: 10px;
+  height: 655px;
+  width: 667px;
+  align-self: flex-end;
+}
+
+.articulo3_1 {
+  width: 50%;
+  padding: 0px 55px;
+}
+
+.articulo3_1 h2 {
+  color: rgb(31, 62, 114);
+  font-size: 32px;
+  margin-bottom: 30px;
+}
+
+.articulo3_1 p {
+  font-size: 14px;
+  color: rgb(109, 123, 147);
+  margin-bottom: 30px;
+}
+
+.articulo3_1 label {
+  color: rgb(31, 62, 114);
+}
+
+input[class^="oculto1"] {
+  display: none;
+}
+
+input[class^="oculto1"] + label {
+  cursor: pointer;
+  transition: all 0.5s;
+}
+
+input[class^="oculto1"] + label:hover {
+  box-shadow: 0px 5px 10px rgba(42, 112, 221, 0.5);
+  padding: 4px 6px;
+  border-radius: 5px;
+}
+
+input[class^="oculto1"]:checked + label {
+  background-color: rgba(255, 255, 255, 0.9);
+  box-shadow: 0px 5px 10px rgba(240, 240, 255, 0.9);
+}
+
+input[class^="oculto1"] ~ .oculto {
+  width: 90%;
+  height: 0;
+  overflow: hidden;
+  opacity: 0;
+  margin: 10px auto 0;
+}
+
+input[class^="oculto1"]:checked + label + .oculto {
+  height: auto;
+  opacity: 1;
+  box-shadow: 0px 5px 10px rgba(240, 240, 255, 0.9);
+}
+
+.lista div {
+  margin: 50px 40px;
+}

@@ -1,0 +1,72 @@
+.menuNav {
+  width: 100%;
+  height: 125px;
+  margin: auto;
+  padding: 25px 0px;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  background-color: rgba(255, 255, 255, 0.9);
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 100;
+}
+
+.logo {
+  cursor: pointer;
+  text-decoration: none;
+  margin-top: 20px;
+  color: rgb(45, 77, 202);
+  font-size: 25px;
+  font-weight: 900;
+}
+
+.menuNav ul li {
+  list-style-type: none;
+  display: inline-flex;
+  margin: 20px;
+  position: relative;
+}
+
+.menuNav ul li a {
+  text-decoration: none;
+  color: rgb(109, 123, 147);
+  font-size: 15px;
+  font-weight: 400;
+}
+
+.menuNav button {
+  padding: 5px 20px;
+  border-radius: 5px;
+  border: none;
+  background: linear-gradient(
+    to left,
+    rgb(42, 74, 200) 0%,
+    rgb(48, 80, 206) 70%
+  );
+  color: #fff;
+  font-size: 15px;
+  font-weight: 400;
+  cursor: pointer;
+  margin-left: 20px;
+}
+
+.menuNav button:hover {
+  box-shadow: 3px 3px 10px 3px rgba(42, 112, 221, 0.5);
+}
+
+.menuNav ul li::before {
+  content: "";
+  height: 3px;
+  width: 0%;
+  background: rgb(45, 77, 202);
+  position: absolute;
+  left: 0;
+  bottom: -12px;
+  transition: 0.4s ease-out;
+}
+
+.menuNav ul li:hover::before {
+  width: 100%;
+}

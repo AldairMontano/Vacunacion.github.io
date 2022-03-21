@@ -1,0 +1,80 @@
+footer {
+  background-color: rgb(238, 243, 255);
+  padding: 50px 100px;
+  display: flex;
+  flex-wrap: wrap;
+  height: 330px;
+}
+
+.sec1 {
+  width: 50%;
+  color: rgb(54, 86, 212);
+  margin-bottom: 30px;
+  height: 200px;
+}
+
+.sec1 h1 {
+  font-size: 25px;
+  font-weight: 900;
+  margin-bottom: 10px;
+}
+
+.sec1 p {
+  color: rgb(109, 123, 147);
+  width: 30%;
+  font-size: 15px;
+  font-weight: 500;
+}
+
+.sec2 {
+  width: 50%;
+  margin-bottom: 30px;
+  height: 200px;
+}
+
+.sec2 table {
+  text-align: left;
+  color: rgb(31, 62, 114);
+  width: 100%;
+}
+
+.sec2 th {
+  font-size: 17px;
+  padding: 15px 5px;
+  cursor: pointer;
+}
+
+.sec2 td {
+  font-size: 15px;
+  color: rgb(109, 123, 147);
+  padding: 5px;
+  cursor: pointer;
+}
+
+.sec3 {
+  width: 50%;
+  color: rgb(109, 123, 147);
+  font-size: 15px;
+  font-weight: 500;
+  height: 20px;
+}
+
+.sec3 h2 {
+  font-size: 13px;
+  font-weight: 500;
+}
+
+.sec4 {
+  width: 50%;
+  color: rgb(109, 123, 147);
+  display: flex;
+  justify-content: flex-end;
+  height: 20px;
+}
+
+.sec4 h2 {
+  font-size: 13px;
+  font-weight: 500;
+  margin-left: 20px;
+  cursor: pointer;
+}

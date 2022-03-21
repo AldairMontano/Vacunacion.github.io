@@ -1,0 +1,103 @@
+.articulo4 {
+  width: 100%;
+  height: 900px;
+  display: flex;
+  flex-wrap: wrap;
+  margin-bottom: 150px;
+}
+
+.articulo4_11 {
+  width: 50%;
+  padding-left: 100px;
+  padding-top: 150px;
+  padding-right: 75px;
+}
+
+.articulo4_1 h1 {
+  color: rgb(31, 62, 114);
+  font-size: 33px;
+  margin-bottom: 30px;
+}
+
+.articulo4_1 p {
+  color: rgb(109, 123, 147);
+  font-size: 16px;
+  margin-bottom: 30px;
+  font-weight: 500;
+  text-align: justify;
+}
+
+.articulo4_2 {
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: 50px;
+  margin-top: 50px;
+  justify-content: space-between;
+}
+
+.articulo4_2 div {
+  width: 45%;
+  margin-top: 100px;
+  border: solid 3px rgba(240, 240, 255, 0.9);
+  border-radius: 10px;
+  padding: 15px 20px;
+  transition: all 0.5s;
+  cursor: pointer;
+  text-align: center;
+}
+
+.articulo4_2 h1 {
+  color: rgb(31, 62, 114);
+  font-weight: 500;
+  font-size: 18px;
+}
+
+.articulo4_2 h2 {
+  color: rgb(109, 123, 147);
+  font-weight: 400;
+  font-size: 10px;
+  margin-bottom: 20px;
+}
+
+.articulo4_2 a {
+  text-decoration: none;
+  border-radius: 5px;
+  color: rgb(48, 80, 206);
+  background-color: rgb(238, 243, 255);
+  padding: 5px 15px;
+  transition: all 0.4s;
+}
+
+.articulo4_2 div:hover {
+  border: none;
+  box-shadow: 0px 10px 15px rgba(42, 112, 221, 0.5);
+}
+
+.articulo4_2 a:hover {
+  color: #fff;
+  box-shadow: 3px 3px 10px 3px rgba(42, 112, 221, 0.5);
+  background: linear-gradient(
+    to left,
+    rgb(42, 74, 200) 0%,
+    rgb(48, 80, 206) 50%
+  );
+}
+
+.sanitario_2 {
+  width: 50%;
+  height: 500px;
+  background: linear-gradient(
+    270deg,
+    rgba(42, 112, 221, 1) 0%,
+    rgba(14, 146, 229, 1) 50%
+  );
+  align-self: flex-end;
+  display: flex;
+}
+
+.sanitario_2 img {
+  align-self: flex-end;
+  padding-left: 100px;
+  width: 645px;
+  height: 776;
+}
