@@ -6,7 +6,7 @@ Practica de Css
 
 <a href="index.html" target="_blank">Archivo HTML</a>
 
-<a href="/style" target="_blank">Archivos CSS</a>
+<a href="https://github.com/AldairMontano/Vacunacion.github.io/tree/main/Style" target="_blank">Archivos CSS</a>
 
 <img src="Planeacion de campaña de vacunacion.png" alt="Planeacion">
 
